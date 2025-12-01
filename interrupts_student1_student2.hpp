@@ -64,6 +64,7 @@ struct PCB {
     unsigned int    arrival_time;
     int             start_time;
     unsigned int    processing_time;
+    unsigned int    priority;
     unsigned int    remaining_time;
     int             partition_number;
     enum states     state;
